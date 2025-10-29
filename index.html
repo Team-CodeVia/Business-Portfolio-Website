@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SM Studio — Creative Business Portfolio</title>
+    <meta name="description"
+        content="Creative portfolio website for small businesses — modern design, responsive layout, and contact form.">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                <div class="logo-circle">SM</div>
+                <span class="fw-bold fs-5">SM Studio</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <a href="#contact" class="btn btn-primary ms-lg-3">Let’s Talk</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header id="home" class="hero d-flex align-items-center">
+        <div class="container text-center text-md-start">
+            <div class="row align-items-center">
+                <div class="col-md-6 animate__animated animate__fadeInLeft">
+                    <h1 class="display-5 fw-bold text-gradient">Grow Your Business Online</h1>
+                    <p class="lead text-muted mb-4">We craft professional and responsive websites that boost your brand
+                        visibility and client trust.</p>
+                    <a href="#services" class="btn btn-primary btn-lg me-2">Explore Services</a>
+                    <a href="#contact" class="btn btn-outline-light btn-lg">Get a Quote</a>
+                </div>
+                <div class="col-md-6 text-center animate__animated animate__fadeInRight">
+                    <img src="assets/images/hero.jpg" class="img-fluid rounded-4 shadow-lg" alt="Business Design">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="py-5 bg-white">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-6">
+                    <img src="assets/images/about.jpg" class="img-fluid rounded-4 shadow-lg" alt="About us">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="section-title">Who We Are</h2>
+                    <p class="text-muted">At <strong>SM Studio</strong>, we turn your ideas into digital experiences.
+                        From web design to brand identity, we empower startups and small businesses to shine online.</p>
+                    <ul class="list-unstyled text-muted">
+                        <li><i class="fa fa-check text-primary me-2"></i> Fast, SEO-friendly websites</li>
+                        <li><i class="fa fa-check text-primary me-2"></i> Tailored design for your brand</li>
+                        <li><i class="fa fa-check text-primary me-2"></i> Lifetime support & updates</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-5 bg-light position-relative">
+        <div class="container text-center">
+            <h2 class="section-title mb-4">Our Expertise</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 service-card">
+                        <i class="fa-solid fa-earth-americas fa-3x text-primary mb-3"></i>
+                        <h5 class="fw-bold">Website Design</h5>
+                        <p class="text-muted small">Eye-catching designs with smooth UX, mobile optimization, and
+                            brand-focused styling.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 service-card">
+                        <i class="fa-solid fa-code fa-3x text-primary mb-3"></i>
+                        <h5 class="fw-bold">Frontend Development</h5>
+                        <p class="text-muted small">Clean, efficient, and scalable code using HTML, CSS, JS, and
+                            frameworks like Bootstrap or Tailwind.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 service-card">
+                        <i class="fa-solid fa-envelope fa-3x text-primary mb-3"></i>
+                        <h5 class="fw-bold">Contact & Support</h5>
+                        <p class="text-muted small">Dynamic contact forms with email integration — optional Django
+                            backend for automation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-5 contact-section">
+        <div class="container">
+            <h2 class="section-title text-center mb-5 text-light">Get In Touch</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form id="contactForm" class="p-4 bg-white rounded-4 shadow-lg">
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Name</label>
+                            <input type="text" class="form-control" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Email</label>
+                            <input type="email" class="form-control" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Message</label>
+                            <textarea class="form-control" rows="4" name="message" required></textarea>
+                        </div>
+                        <div class="alert alert-success d-none" id="formSuccess">✅ Message sent successfully!</div>
+                        <div class="alert alert-danger d-none" id="formError">⚠️ Something went wrong. Try again later.
+                        </div>
+                        <button class="btn btn-primary w-100" type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center text-light footer-bg">
+        <p class="mb-0">© <span id="year"></span> SM Studio.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

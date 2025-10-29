@@ -1,0 +1,130 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  scroll-behavior: smooth;
+  background-color: #f9fafc;
+}
+
+/* Navbar */
+.logo-circle {
+  background: linear-gradient(45deg, #4f46e5, #7c3aed);
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(120deg, #4f46e5, #6366f1);
+  color: #fff;
+  padding: 120px 0;
+}
+.text-gradient {
+  background: linear-gradient(45deg, #fefefe, #e0e7ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Section titles */
+.section-title {
+  color: #4f46e5;
+  font-weight: 700;
+}
+
+/* Services */
+.service-card {
+  border: none;
+  border-radius: 15px;
+  padding: 25px;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.2);
+}
+
+/* Contact */
+.contact-section {
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+}
+.contact-section .form-control {
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+/* Footer */
+.footer-bg {
+  background-color: #0f172a;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+  scroll-behavior: smooth;
+  background-color: #f9fafc;
+}
+
+/* Navbar */
+.logo-circle {
+  background: linear-gradient(45deg, #4f46e5, #7c3aed);
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(120deg, #4f46e5, #6366f1);
+  color: #fff;
+  padding: 120px 0;
+}
+.text-gradient {
+  background: linear-gradient(45deg, #fefefe, #e0e7ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Section titles */
+.section-title {
+  color: #4f46e5;
+  font-weight: 700;
+}
+
+/* Services */
+.service-card {
+  border: none;
+  border-radius: 15px;
+  padding: 25px;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(99, 102, 241, 0.2);
+}
+
+/* Contact */
+.contact-section {
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+}
+.contact-section .form-control {
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+/* Footer */
+.footer-bg {
+  background-color: #0f172a;
+}
